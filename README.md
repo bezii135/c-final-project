@@ -1,1 +1,1 @@
-# c-final-project
+# pharmacy-manegment-practice
