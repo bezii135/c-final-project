@@ -44,6 +44,7 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.uC_user1 = new UC_Dashboard1.UC_user();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -206,6 +207,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.uC_user1);
             this.panel2.Controls.Add(this.uC_Dashboard1);
             this.panel2.Location = new System.Drawing.Point(394, 5);
             this.panel2.Name = "panel2";
@@ -229,6 +231,15 @@
             // guna2Elipse2
             // 
             this.guna2Elipse2.TargetControl = this.panel2;
+            // 
+            // uC_user1
+            // 
+            this.uC_user1.BackColor = System.Drawing.SystemColors.Window;
+            this.uC_user1.Location = new System.Drawing.Point(0, -5);
+            this.uC_user1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.uC_user1.Name = "uC_user1";
+            this.uC_user1.Size = new System.Drawing.Size(1425, 1094);
+            this.uC_user1.TabIndex = 1;
             // 
             // Administrator
             // 
@@ -266,5 +277,6 @@
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
         private UC_Dashboard uC_Dashboard1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
+        private UC_Dashboard1.UC_user uC_user1;
     }
 }
